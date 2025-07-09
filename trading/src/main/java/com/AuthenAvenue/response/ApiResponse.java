@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.AuthenAvenue.response;
 
 import lombok.Data;
@@ -6,3 +7,13 @@ import lombok.Data;
 public class ApiResponse {
     private String message;
 }
+=======
+package com.AuthenAvenue.response;
+
+import lombok.Data;
+
+@Data
+public class ApiResponse {
+    private String message;
+}
+>>>>>>> 11db2161694382d9c1ed547796c2660a2df2fdec

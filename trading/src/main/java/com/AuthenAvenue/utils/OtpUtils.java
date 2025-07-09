@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.AuthenAvenue.utils;
 
 import java.util.Random;
@@ -17,3 +18,24 @@ public class OtpUtils {
         return otp.toString();
     }
 }
+=======
+package com.AuthenAvenue.utils;
+
+import java.util.Random;
+
+public class OtpUtils {
+
+    public static String generateOTP() {
+        int otpLength = 6;
+
+        Random random = new Random();
+
+        StringBuilder otp = new StringBuilder(otpLength);
+
+        for(int i=0; i<otpLength; i++) {
+            otp.append(random.nextInt(10));
+        }
+        return otp.toString();
+    }
+}
+>>>>>>> 11db2161694382d9c1ed547796c2660a2df2fdec
